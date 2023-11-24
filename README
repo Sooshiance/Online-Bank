@@ -2,7 +2,7 @@ This is an online banking system with Django Rest Framework.
 
 It has some benfit like :
 
-- It will kepp track of users deposits and transactions. 
+- It will keep track of users deposits and transactions. 
 
 - It will help user to calculate their transactions and entries.
 
