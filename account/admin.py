@@ -1,3 +1,9 @@
 from django.contrib import admin
 
-# Register your models here.
+from .models import BankAccount
+
+
+@admin.register(BankAccount)
+class CheckingAdmin(admin.ModelAdmin):
+    list_display = ['user', 'accounttype', 'current_asset']
+
